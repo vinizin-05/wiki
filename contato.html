@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>contato conosco</title>
+</head>
+<body class="contato">
+    
+    <h1 class="fale">fale conosco</h1>
+    <form action="">
+      <legend class="inf">informação</legend>
+        <div class="formulario-campo">
+           <label for="nome">
+               Nome:
+               <input type="text" id="nome" name="nome">
+           </label>
+        </div>
+        
+        <div class="formulario-campo">
+            <label for="assunto"> Assunto </label>
+            <select name="assunto" id="Assunto">
+            <option value="contato">Deixe sua mensagen</option>
+            <option value="nova atividade">Proposta de trabalho</option>
+            <option value="reclamação">reclamação</option>
+        </select>
+        </div>
+        <div class="formulario-campo">
+           <label for="mensagen"> Texto </label>
+           <textarea name="mensagen" id="mensagem"></textarea>
+        </div>
+        <button class="butam" type="submit" id="enviar-btn">enviar</button>
+    </form>
+        <script src="/js/script.js"></script>
+</body>
+</html>
