@@ -1,0 +1,43 @@
+
+nome: 🌓 Deploy & Quality
+
+on:
+ push:
+  branches:
+  - main
+  workflow_dispatch:
+
+ permissions:
+contents: read 
+pages: write
+id-tokem: write
+
+concurrency:
+grop: ${{ github.workflow}}-${{github.ref}}
+cancell-in-progress: true
+
+jobs:
+name: 🌗 Deploy to Github pages
+runa-on: ubuntu-latest
+if: github.ref == 'refs/heads/main'
+outputs:
+page_url: ${{ steps.deployment.outputs.page_url }}
+
+environment:
+name: github-pages
+url: ${{ teps.deployment.outputs.page_url }}
+steps:
+ - name: 🍺 ChecKout code
+   uses: actions/ChecKout@v4
+
+ - name: 🍖 Setup Pages
+   use: actions/configures-pages@v4
+
+ - name: 🍁 Upload artifact 
+   uses: acontions/Upload-PAGES-artifact@V3
+   write:
+   path: "."
+ 
+ - name: 🍀 Deploy to Github pages
+   id: deployment
+   uses: acontions/deployment-pages@v4
