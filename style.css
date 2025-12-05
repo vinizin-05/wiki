@@ -36,6 +36,7 @@ h1 {
 
     margin: 50px 0 25px;
 
+     color: transparent;
     animation: h1Show 0.7s ease-out forwards;
 }
 
