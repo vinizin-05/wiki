@@ -291,25 +291,25 @@ float: left;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
-/* BRONZE */
+
 .trofeu-bronze {
     border: 1px solid #b97443;
     box-shadow: 0 0 10px rgba(185,116,67,0.25);
 }
 
-/* PRATA */
+
 .trofeu-prata {
     border: 1px solid #cfcfcf;
     box-shadow: 0 0 12px rgba(200,200,200,0.25);
 }
 
-/* OURO */
+
 .trofeu-ouro {
     border: 1px solid #eac45d;
     box-shadow: 0 0 15px rgba(234,196,93,0.28);
 }
 
-/* PLATINA — O MAIS BONITÃO */
+
 .trofeu-platina {
     border: 1px solid #9fc7ff;
     box-shadow: 
@@ -400,6 +400,7 @@ h2 {
     text-shadow: 
         0 0 4px rgba(0,0,0,0.45),
         0 1px 3px rgba(0,0,0,0.6);
+         background-color:rgba(0,0,0,0.6);
 }
 }
 
