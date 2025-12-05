@@ -496,3 +496,8 @@ h2 {
   display: block;
   margin: 0 auto;    
 }
+
+.video{
+     border-left: 6px solid rgba(120,160,255,0.55);
+     border-radius: 4px;
+}
