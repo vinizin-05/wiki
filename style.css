@@ -498,6 +498,9 @@ h2 {
 }
 
 .video{
-     border-left: 6px solid rgba(120,160,255,0.55);
+     border: 1px solid #9fc7ff;
+    box-shadow: 
+        0 0 10px rgba(159,199,255,0.3),
+        0 0 18px rgba(120,160,255,0.2);
      border-radius: 4px;
 }
