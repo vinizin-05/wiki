@@ -194,6 +194,7 @@ main h2 {
     width: 1700px;
     background-color:rgba(0,0,0,0.6);
      border: solid 2px #ffffff;
+      
 }
 
 .perso{
@@ -279,7 +280,7 @@ width: 270px;
 float: left;
 }
 
-/* BASE DE TODAS */
+
 .trofeu {
     background: rgba(20, 20, 20, 0.60);
     backdrop-filter: blur(6px);
