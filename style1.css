@@ -1,0 +1,497 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #ffffff;
+    background-image: url(/img/the\ \(1\).jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+      background-attachment: fixed;
+
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    color: #f2f2f2;
+
+    text-shadow:
+        0 0 8px rgba(0,0,0,0.7),
+        0 3px 6px rgba(0,0,0,0.8);
+
+    border-left: 6px solid rgba(120,160,255,0.55);
+    padding-left: 18px;
+
+    margin: 50px 0 25px;
+
+    animation: h1Show 0.7s ease-out forwards;
+}
+
+@keyframes h1Show {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2{
+     font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+
+    color: transparent;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+h3{
+     font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+nav {
+    width: 100%;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(20, 20, 20, 0.7);
+    backdrop-filter: blur(8px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+nav .logo {
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: 0 0 6px rgba(150,150,255,0.6);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    font-size: 1rem;
+
+    padding: 6px 10px;
+    border-radius: 6px;
+
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background: rgba(120,160,255,0.25);
+    box-shadow: 0 0 8px rgba(120,160,255,0.4);
+    transform: scale(1.05);
+}
+
+nav ul li a.active {
+    
+    color: #fff;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    color: #007bff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.rodape {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: Arial;
+  margin-top: 40px;
+}
+
+.rodape p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; 
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 5px 0; 
+        width: 90%; 
+    }
+
+    nav ul li a {
+        text-align: center; 
+    }
+}
+
+
+
+.histo{
+    margin:0 auto;
+    width: 1700px;
+    background-color:rgba(0,0,0,0.6);
+     border: solid 2px #ffffff;
+}
+
+.perso{
+    margin:0 auto;
+    width: 1500px;
+    border: solid 2px #ffffff;
+    background-color:rgba(0,0,0,0.6);
+
+h2{
+      font-family: "Georgia", serif; 
+    font-size: 2rem;
+    font-weight: 700;
+
+    color: #f2f2f2;
+
+    letter-spacing: 1.8px;
+
+    text-shadow:
+        0 0 6px rgba(0,0,0,0.7),
+        0 3px 5px rgba(0,0,0,0.6);
+
+    margin: 40px 0 12px;
+
+   
+    border-left: 4px solid rgba(125,160,255,0.45);
+    padding-left: 14px;
+}
+}
+
+.ellie{
+width: 250px;
+float: left;
+
+}
+
+.abby{
+  width: 250px;
+  float: left;
+}
+
+.Joel{
+    width: 300px;
+    float: left;
+}
+
+.dina{
+width: 300px;
+float: left;
+}
+
+.jesse{
+width: 350px;
+float: left;
+}
+
+.tommy{
+width: 300px;
+float: left;
+}
+
+.maria{
+width: 300px;
+float: left;
+}
+
+.manny{
+width: 300px;
+float: left;
+}
+
+.owen{
+width: 300px;
+float: left;
+}
+
+.mel{
+width: 300px;
+float: left;
+}
+
+.nora{
+width: 270px;
+float: left;
+}
+
+/* BASE DE TODAS */
+.trofeu {
+    background: rgba(20, 20, 20, 0.60);
+    backdrop-filter: blur(6px);
+    padding: 18px 22px;
+    margin: 18px 0;
+    border-radius: 12px;
+    font-family: "Arial", sans-serif;
+    color: #e9e9e9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+/* BRONZE */
+.trofeu-bronze {
+    border: 1px solid #b97443;
+    box-shadow: 0 0 10px rgba(185,116,67,0.25);
+}
+
+/* PRATA */
+.trofeu-prata {
+    border: 1px solid #cfcfcf;
+    box-shadow: 0 0 12px rgba(200,200,200,0.25);
+}
+
+/* OURO */
+.trofeu-ouro {
+    border: 1px solid #eac45d;
+    box-shadow: 0 0 15px rgba(234,196,93,0.28);
+}
+
+/* PLATINA — O MAIS BONITÃO */
+.trofeu-platina {
+    border: 1px solid #9fc7ff;
+    box-shadow: 
+        0 0 10px rgba(159,199,255,0.3),
+        0 0 18px rgba(120,160,255,0.2);
+}
+
+.pla{
+ h2{
+     font-family: "Arial Black", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #f1f1f1;
+    text-shadow: 
+        0 0 6px rgba(255,255,255,0.3),
+        0 0 14px rgba(0,140,255,0.25), 
+        0 2px 4px rgba(0,0,0,0.8);
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+ }
+}
+
+.historia{
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    color: #f2f2f2;
+
+    text-shadow:
+        0 0 8px rgba(0,0,0,0.7),
+        0 3px 6px rgba(0,0,0,0.8);
+
+    border-left: 6px solid rgba(120,160,255,0.55);
+    padding-left: 18px;
+
+    margin: 50px 0 25px;
+
+    animation: h1Show 0.7s ease-out forwards;
+}
+
+@keyframes h1Show {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h3{
+ font-family: "Georgia", serif; 
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.7;
+
+    color: #dcdcdc;
+
+    letter-spacing: 0.4px;
+
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+
+    margin: 15px 0;
+}
+
+h2 {
+    font-family: "Georgia", serif; 
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    color: #e5e5e5;
+
+    margin: 30px 0 10px;
+
+   
+    border-bottom: 2px solid rgba(125, 160, 255, 0.35);
+    padding-bottom: 6px;
+
+    text-shadow: 
+        0 0 4px rgba(0,0,0,0.45),
+        0 1px 3px rgba(0,0,0,0.6);
+}
+}
+
+.cascavel{
+     width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;  
+  border-radius: 12px;
+}
+
+.serafitas{
+      width: 100%;
+  max-width: 900px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;   
+  border-radius: 12px;
+}
+
+.wlf{
+  width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;    
+  border-radius: 12px;
+}
+
+.shotgun{
+      width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;   
+  border-radius: 12px;
+}
+
+ .arco{
+      width: 100%;
+  max-width: 900px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;    
+  border-radius: 12px;
+ }
+
+.caca{
+  width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;   
+  border-radius: 12px;
+}
+
+.espingarda{
+      width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;    
+  border-radius: 12px;
+}
+
+.besta{
+      width: 100%;
+  max-width: 900px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;   
+  border-radius: 12px;
+}
+
+.codrep{
+      width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;    
+}
+
+.codreg{
+      width: 100%;
+  max-width: 900px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;    
+  border-radius: 12px;
+}
+
+.lança{
+      width: 100%;
+  max-width: 900px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;    
+}
