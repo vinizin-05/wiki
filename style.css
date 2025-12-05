@@ -58,7 +58,7 @@ h2{
     text-transform: uppercase;
     
     background: linear-gradient(90deg, #ffffff, #ffffff);
-    -webkit-background-clip: text;
+
     color: transparent;
 
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
